@@ -5,7 +5,7 @@ const App = () => {
   const [classe, setClasse] = useState(0);
 
   const getClass = async () => {
-    const url = process.env.REACT_APP_BACKEND_URL;
+    const url = 'http://174.129.154.253:3001/newClass';
 
     try {
       const request = await axios({
